@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@400;600;700&display=swap');
+
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1E1C21;
+    height: 80px;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+       
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+#barras {
+    display: none;
+}
+
+
+.icone-menu {
+    height: 40px;
+}
+
+.logo {}
+
+
+.banner {
+    height: 610px;
+    background-image: url(../img/ImagemBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.posicionamento-banner {
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.conteudo-banner{
+   width: 495px;
+   height: 300px;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+
+    color: white;
+}
+
+.conteudo-banner a{
+    padding: 15px;
+  
+    color: white;
+    background-color: #C31616;
+    border-radius: 5px;
+    
+    font-family: "Roboto";
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.conteudo-banner h1 {
+    font-family: "Titillium Web";
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.conteudo-banner p{
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.jogos{
+    height: 120px;
+    background-color: #000000;  
+
+}
+
+.posicionamento-jogos {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.posicionamento-jogos img {
+    width: 150px;
+}
+
+
+
+.ofertas {
+    background-color: #1E1C21;
+    width: 100%;
+    height: 850px;
+}
+
+.ofertas h2{
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+    /* line-height: 2.2; */
+}
+
+
+
+
+.espaco-produtos {
+    width: 100%;
+    height: 100%px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.cardnews {
+    width: 220px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #313131;
+    border-radius: 5px;
+    margin: 3%;
+       
+}
+
+.cardnews img {
+    width: 100%;
+    height: 43%;
+    border-radius: 5px;
+    
+}
+
+.texto-cardnews {
+    width: 85%;
+    height: 51%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+   }
+
+.cardnews h3 {
+    color:white;
+    font-family: "Roboto";
+  }
+
+.descricao-jogo {
+    color:white;
+    font-family: "Roboto";
+}
+
+.preco {
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+.cardnews a {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    line-height: 2;
+    background-color: #C31616;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 600;
+    
+    /* padding: 10px;
+    
+
+    font-size: 13px; */
+}
+
+
+.descri-ligas {
+    height: 500px;
+    background-image: url(../img/Fundo-participar-ligas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sec-ligas-titulo{
+    width: 55%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sec-ligas-titulo h3{
+    color:white;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+
+.sec-ligas-titulo p {
+    color: white;
+    font-family: "Roboto";
+}
+
+.personagem-lol {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.rodape{
+    height: 250px;
+    background-color: #010101;
+}
+
+.titulo-links-uteis h3{
+    color: white;
+}
+
+.titulo-links-uteis li{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo-links-uteis a{
+    color: white;
+    text-decoration: none;
+}
+
+.link-paginas li{
+    color: white;
+}
+
+.link-paginas h3{
+    color: white;
+}
+
+
+.itens-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: none;
+    
+    
+}
+
+.logo-eplayers{
+    padding: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.form-social button {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #001F70;
+    border: none;
+    padding: 3px 5px;
+    margin: 4x 2x;
+}
+
+.form-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.form-social p{
+    color: white;
+}
+
+
+.redes-sociais {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.redes-sociais p{
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .cabecalho {
+        position: relative;
+    }
+
+
+    .menu {
+        /* display: none; */
+
+        position: absolute;
+        top: 80px;
+        right: 70px;
+
+        height: 400px;
+
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #1E1C21;
+        align-items: center;
+    }
+
+    #barras {
+        display: inline-block;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: darkblue;
+    }
+    .logo {
+        width: 100px;
+    }
+}
+
